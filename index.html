@@ -38,7 +38,7 @@
     <link rel="stylesheet" href="css/animate.css">
     <!-- Custom CSS -->
     <link href="css/landing-page.css" rel="stylesheet">
-
+    <link href="css/newstyle.css" rel="stylesheet">
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
@@ -71,32 +71,36 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="http://market.rudex.org/">Биржа</a>
+                        <a href="http://market.rudex.org/">БИРЖА</a>
                     </li>
                     <li>
-                        <a href="#wallet">Кошельки</a>
+                        <a href="https://github.com/blckchnd/rudex-ui/releases">СКАЧАТЬ</a>
                     </li>
                     <!--<li>-->
                         <!--<a href="#services">О нас</a>-->
                     <!--</li>-->
                     <li>
-                        <a href="#contact">Контакты</a>
+                        <a href="javascript:void(0)">ШЛЮЗ<br>(COMING SOON)</a>
                     </li>
                     <li>
-                        <a href="index.html">Rus</a>
+                        <a href="#cont">КОНТАКТЫ</a>
                     </li>
-                    <li>
-                        <a href="index_eng.html">Eng</a>
+                    <!--<li class="lang">-->
+                        <!--<a href="index_eng.html">RU/</a>-->
+                    <!--</li>-->
+                    <!--<li>-->
+                        <!--<a href="index_eng.html">EN</a>-->
+                    <!--</li>-->
+                </ul>
+
+               <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden-xs">
+                        <a href="#">RU</a>
+                    </li>
+                    <li class="hidden-xs">
+                        <a href="#">EN</a>
                     </li>
                 </ul>
-                <!--<ul class="nav navbar-nav navbar-right">-->
-                    <!--<li class="hidden-xs">-->
-                        <!--<a href="index.html">Rus</a>-->
-                    <!--</li>-->
-                    <!--<li class="hidden-xs">-->
-                        <!--<a href="index_eng.html">Eng</a>-->
-                    <!--</li>-->
-                <!--</ul>-->
             </div>
             <!-- /.navbar-collapse -->
         </div>
@@ -112,10 +116,10 @@
             <div class="row">
                 <div class="col-md-10 col-md-offset-1">
                     <div class="intro-message">
-                        <h1>The DEX</h1>
-                        <p>The DEX - это уникальная в своем роде децентрализованная биржа, которая как хороший швейцарский нож - обладает всеми нужными вам функциями и еще парочкой таких, о которых вы не подозревали. Несмотря на свою молодость, за счет заложенной в ее фундамент блокчейн-технологии BitShares способна оперировать объемом, сравнимым с NASDAQ, и при этом размещать ваши торговые позиции в следующую же секунду после подачи заявки.</p>
-                        <h3 style="margin: calc(2rem - .14285em) auto 1rem;max-width: 780px;">Централизованные биржи - старая привычка, децентрализованные - будущее, которое уже здесь.</h3>
+                        <h1>BITSHARES<br>RuDEX<p class="beta">beta</p></h1>
+                        <p>ЦЕНТРАЛИЗОВАННЫЕ БИРЖИ - СТАРАЯ ПРИВЫЧКА<br>ДЕЦЕНТРАЛИЗОВАННЫЕ - БУДУЩЕЕ, КОТОРОЕ УЖЕ ЗДЕСЬ</p>
                     </div>
+                    <div><a class="btn btn-default btnmain" href="#" role="button">НАЧАТЬ ТОРГОВЛЮ</a></div>
                 </div>
             </div>
 
@@ -125,114 +129,68 @@
     </div>
     <!-- /.intro-header -->
 
-    <section id="pluses">
+    <section id="pluses" class="priemsection">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Преимущества рынка Bitshares DEX: </h2>
-                    <hr class="section-heading-spacer main">
+                    <h2 class="section-heading">ПРЕИМУЩЕСТВА BITSHARES DEX</h2>
                 </div>
             </div>
         </div>
         <div class="container">
             <div class="row">
                 <div class="col-md-6 text-left">
-                    <ul class="list-unstyled">
-                        <li><i class="fa fa-check"></i> <span>защищенность от посягательств других лиц и правительств </span></li>
-                        <li><i class="fa fa-check"></i><span>переводы в любую точку мира за 3 секунды </span></li>
-                        <li><i class="fa fa-check"></i><span>гарантированно приватные деньги, неподконтрольные центральным банкам </span></li>
-                        <li><i class="fa fa-check"></i><span>свобода торговли между любыми видами активов на едином международном рынке </span></li>
-                    </ul>
-
+                    <div class="spis" style="background: url('img/fonspisok.png') no-repeat left top; height: 100px; background-size: 100%;"><i class="fa fa-check"></i><div class="spistext">Защищенность от посягательств<br>третьих лиц и правительств</div></div>
+                    <div class="spis" style="background: url('img/fonspisok.png') no-repeat left top; height: 100px; background-size: 100%;"><i class="fa fa-check"></i><div class="spistext">Децентрализованный обмен активами<br>на едином международном рынке</div></div>
+                    <div class="spis" style="background: url('img/fonspisok.png') no-repeat left top; height: 100px; background-size: 100%;"><i class="fa fa-check"></i><div class="spistext">Высокая скорость и масштабируемость<br>(переводы в любую точку мира за 3 сек.)</div></div>
+                    <div class="spis" style="background: url('img/fonspisok.png') no-repeat left top; height: 100px; background-size: 100%;"><i class="fa fa-check"></i><div class="spistext">Криптоактивы со стабильной ценой</div></div>
+                    <div class="spis" style="background: url('img/fonspisok.png') no-repeat left top; height: 100px; background-size: 100%;"><i class="fa fa-check"></i><div class="spistext">Динамическая настройка прав доступа</div></div>
                 </div>
                 <div class="col-md-6 text-left">
-                    <ul class="list-unstyled">
-                        <li><i class="fa fa-check"></i><span>возможность проведения микроплатежей</span></li>
-                        <li><i class="fa fa-check"></i><span>четкая логичная структура, обеспечивающая простоту использования</span></li>
-                        <li><i class="fa fa-check"></i><span>анонимность</span></li>
-                        <li><i class="fa fa-check"></i><span>децентрализация</span></li>
-                    </ul>
+                    <div class="spis" style="background: url('img/fonspisok.png') no-repeat left top; height: 100px; background-size: 100%;"><i class="fa fa-check"></i><div class="spistext">Гарантированно приватные деньги,<br>неподконтрольные центральным банкам</div></div>
+                    <div class="spis" style="background: url('img/fonspisok.png') no-repeat left top; height: 100px; background-size: 100%;"><i class="fa fa-check"></i><div class="spistext">Возможность проведения микроплатежей</div></div>
+                    <div class="spis" style="background: url('img/fonspisok.png') no-repeat left top; height: 100px; background-size: 100%;"><i class="fa fa-check"></i><div class="spistext">Четкая логичная структура, обеспечивающая<br>простоту использования</div></div>
+                    <div class="spis" style="background: url('img/fonspisok.png') no-repeat left top; height: 100px; background-size: 100%;"><i class="fa fa-check"></i><div class="spistext">Открытые данные по всем операциям</div></div>
+                    <div class="spis" style="background: url('img/fonspisok.png') no-repeat left top; height: 100px; background-size: 100%;"><i class="fa fa-check"></i><div class="spistext">Анонимность</div></div>
                 </div>
                 </div>
             </div>
         </div>
     </section>
-
-    <div class="content-section-c" id="wallet">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-xs-12 text-center">
-                    <h2 class="section-heading">Установите кошелек</h2>
-                    <hr class="section-heading-spacer main">
-                </div>
-                <div class="col-sm-6">
-                    <h3 class="text-center" style="font-weight: 400;">Desktop версия</h3>
-                    <a href="#" target="_blank"><img class="img-responsive" src="img/img4.png" alt=""></a>
-                    <!--<a href="register.html" target="_blank"><img class="img-responsive" src="img/img4.png" alt=""></a>-->
-                </div>
-                <div class="col-sm-6">
-                    <h3 class="text-center" style="font-weight: 400;">Web версия</h3>
-                    <a href="https://market.rudex.org/"><img class="img-responsive" src="img/img6.png" alt=""></a>
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-
 
     <section id="services">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Плюсы нашего интерфейса Bitshares</h2>
-                    <hr class="section-heading-spacer main">
+                    <h2 class="section-heading">ПРЕИМУЩЕСТВА НАШЕГО ИНТЕРФЕЙСА</h2>
                 </div>
             </div>
         </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-4 text-center">
-                    <div class="hexagon service-box">
-                        <div class="hex-front">
-                            <i class="fa fa-4x fa-users text-primary sr-icons"></i>
-                            <h3>Русская локализация</h3>
-                        </div>
-                        <div class="info-bl">
-                            <p>Международная торговля теперь еще доступнее</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 text-center">
-                    <div class="hexagon service-box">
-                        <div class="hex-front">
-                            <i class="fa fa-4x fa-comments text-primary sr-icons"></i>
-                            <h3>Русский троллбокс
-                            </h3>
-                        </div>
-                        <div class="info-bl">
-                            <p>Свободное общение - чат Telegram</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 text-center">
-                    <div class="hexagon service-box">
-                        <div class="hex-front">
-                            <i class="fa fa-4x fa-handshake-o text-primary sr-icons" ></i>
-                            <h3>Поддержка на русском</h3>
-                        </div>
-                        <div class="info-bl">
-                            <p>Здесь все партнеры - важен успех каждого</p>
-                        </div>
-                    </div>
-                </div>
+        <div class="container priemint">
+            <div class="row pimg1">
+                <div class="col-lg-2"><img src="img/01.png" alt=""></div>
+                <div class="col-lg-2"><img src="img/02.png" alt=""></div>
+                <div class="col-lg-2"><img src="img/03.png" alt=""></div>
+                <div class="col-lg-2"><img src="img/04.png" alt=""></div>
+                <div class="col-lg-2"><img src="img/05.png" alt=""></div>
+            </div>
+            <br>
+            <div class="row ptext1">
+                <div class="col-lg-2">РУССКОЯЗЫЧНАЯ<br> ЛОКАЛИЗАЦИЯ</div>
+                <div class="col-lg-2">ЧАТ НА<br> РУССКОМ</div>
+                <div class="col-lg-2">ПОДДЕРЖКА<br> НА РУССКОМ</div>
+                <div class="col-lg-2">ВЗАИМОВЫГОДНЫЙ<br>&nbsp;КРАУДМАРКЕТИНГ</div>
+                <div class="col-lg-2">ФИАТНЫЙ<br>ШЛЮЗ</div>
             </div>
         </div>
     </section>
-
+    <section id="partners">
+        <div class="container partnmain">
+        <h2 class="section-heading partn">ПАРТНЕРЫ</h2>
+                <a href="https://changebot.info/ru"><img src="img/partn1.png" alt="" class="pi1"></a><a href="http://forklog.com/"><img src="img/partn2.png" alt="" class="pi1"></a><a href="https://www.facebook.com/groups/ibcgio/
+"><img src="img/partn3.png" alt="" class="pi1"></a><a href="https://bloggersclub.net/referral/NAOLAFRgQ9P6_yDoqXFMpMOANbDo"><img src="img/partn4.png" alt="" class="pi2"></a>           
+        </div>
+    </section>
     <!-- Page Content -->
 
 	<!--<a  name="services"></a>-->
@@ -314,61 +272,24 @@
     <!--</div>-->
     <!--&lt;!&ndash; /.content-section-a &ndash;&gt;-->
 
-	<a  name="contact"></a>
-    <div class="banner">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-5">
-                    <h2>Свяжитесь с нами</h2>
-                </div>
-                <div class="col-lg-4">
-                    <ul class="list-inline banner-social-buttons">
-                        <li>
-                            <a href="http://blckchnd.com"><img class="blck img-responsive" src="img/blckchnd.png" alt=""></a>
-                        </li>
-                        <li>
-                            <a href="https://telegram.me/BitSharesDEX_RU" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-telegram fa-fw"></i> <span class="network-name">Telegram</span></a>
-                        </li>
-                        <!--<li>-->
-                            <!--<a href="https://golos.io/@blockchained"   target="_blank" class="btn btn-default btn-lg gls"><i class="golos"></i> <span class="network-name">Golos</span></a>-->
-                        <!--</li>-->
-                        <!--<li>-->
-                            <!--<a href="https://steemit.com/@blockchained" target="_blank" class="btn btn-default btn-lg"><i class="steemit"></i> <span class="network-name">Steemit</span></a>-->
-                        <!--</li>-->
-                        <!--<li>-->
-                            <!--<a href="https://www.youtube.com/channel/UCkK1ztgHyKS5wAHvAQPClFw" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-youtube fa-fw"></i> <span class="network-name">Youtube</span></a>-->
-                        <!--</li>-->
-                        <!--<li>-->
-                            <!--<a href="https://twitter.com/BLCKCHND" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>-->
-                        <!--</li>-->
-                    </ul>
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.banner -->
-
     <!-- Footer -->
-    <footer>
+    <footer id="cont">
+        <div class="container footer1">
+        <h2 class="section-heading svyaz">СВЯЖИТЕСЬ С НАМИ</h2>
+        <a href="https://t.me/BitSharesDEX_RU"><img src="img/telegram.png" alt=""></a><a href="https://golos.io/@blockchained"><img src="img/golos.png" alt=""></a><a href="https://steemit.com/@blockchained"><img src="img/steem.png" alt=""></a><a href="https://bitsharestalk.org/"><img src="img/b.png" alt=""></a><a href="https://bitcointalk.org/"><img src="img/bit.png" alt=""></a>
+        </div>
+        <div class="container footer2">
+        <a href="https://www.facebook.com/bitsharesrudex/"><img src="img/face.png" alt=""></a><a href="https://vk.com/rudex_bitshares"><img src="img/vk.png" alt=""></a><a href="https://twitter.com/rudex_bitshares"><img src="img/twit.png" alt=""></a><a href="https://www.youtube.com/channel/UCkK1ztgHyKS5wAHvAQPClFw"><img src="img/you.png" alt=""></a>
+        </div>
+        <div class="container footmail">
+            <a href="mailto:support@rudex.org" class="footmaillink">support@rudex.org</a>
+        </div>
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
                     <ul class="list-inline text-center">
                         <li>
-                            <a href="http://market.rudex.org/">Биржа</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="#wallet">Кошельки</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="#contact">Контакты</a>
+                            <a href="hhttp://cryptofresh.com/">Обозреватель блоков</a>
                         </li>
                         <li class="footer-menu-divider">&sdot;</li>
                         <li>
@@ -376,16 +297,15 @@
                         </li>
                         <li class="footer-menu-divider">&sdot;</li>
                         <li>
-                            <a href="http://cryptofresh.com/">Обозреватель блоков блокчейна Bitshares</a>
+                            <a href="http://docs.bitshares.eu/">Документация Graphene</a>
                         </li>
                         <li class="footer-menu-divider">&sdot;</li>
                         <li>
-                            <a href="http://docs.bitshares.eu/">Документация Graphene</a>
+                            <a href="https://github.com/blckchnd/rudex-ui">Github</a>
                         </li>
                     </ul>
                 </div>
                 <div class="col-xs-12 text-center">
-                    <i class="fa fa-envelope-o" aria-hidden="true"></i><a class="mail" href="mailto:blockchained@protonmail.com"> blockchained@protonmail.com</a>
                     <p class="copyright text-muted small">Copyright Blokhained 2017. All Rights Reserved</p>
 
                 </div>

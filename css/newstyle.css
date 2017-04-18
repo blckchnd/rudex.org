@@ -1,0 +1,154 @@
+
+@font-face {
+    font-family: "CasperBold";   
+    src: url("fonts/Casper_Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "ComfortaBold";   
+    src: url("fonts/Comfortaa-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "GeometriaBold";   
+    src: url("fonts/Geometria-Bold.otf");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Russo";   
+    src: url("fonts/russo_one_regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+.navbar-default {
+    background-color: #247fab;
+    border-color: #247fab;
+    padding-left: 50px;
+}
+.navbar-default .navbar-nav>li>a:focus,.navbar-default .navbar-nav>li>a:hover {
+    color: #0a4f79;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+ 	height: 60px;
+
+}
+.priemsection {
+	background-color: #77c5ec;	
+}
+.section-heading {
+	color: #0a4f79;
+}
+.priemint {
+	text-align: center;
+	padding-left: 120px;
+	color: #0a4f79;
+	font-weight: 600;
+	font-size: 15px;
+}
+.priemint .pimg1 {
+    margin-bottom: -20px;
+}
+.priemint div img {
+	width: 100%;
+}
+.partnmain {
+	text-align: center;
+}
+footer {
+	background-color: #0a4f79;
+}
+.svyaz {
+	color: white;
+}
+.intro-header h1 {
+	text-shadow: 3px 3px #23415b;
+	margin-bottom: 30px;
+}
+.intro-header p {
+	text-shadow: 3px 3px #23415b;
+	font-size: 32px;
+}
+.navbar .navbar-collapse {
+    text-align: center;
+    margin-right: 0px;
+    font-weight: 600;
+}
+.btnmain {
+	background-color: #75a33b;
+	color: white;
+	font-size: 32px;
+	font-weight: 400;
+	padding: 10px 40px;
+	border: none;
+	box-shadow: 1px 1px #23415b;
+}
+i.fa.fa-check {
+    color: white;
+    font-size: 22px;
+    position: relative;
+    padding-right: 70px;
+    padding-left: 30px;
+    padding-top: 23px;
+}
+div.spis {
+	color: white;
+}
+div.spistext {
+	display: inline-block;
+	vertical-align: middle;
+	font-family: Russo;
+	font-size: 17px;
+}
+.partnmain {
+ padding-bottom: 30px;
+}
+
+.pi1 {
+	padding-right: 100px;
+		width: 200px;
+}
+.pi2 {
+	width: 150px;
+}
+.footer1, .footer2 {
+	text-align: center;
+}
+.footer1 img, .footer2 img{
+	width: 100px;
+	margin-right: 20px;
+}
+.footer1 img:hover, .footer2 img:hover{
+ 	filter: greyscale(100%);
+}
+/*.svyazimg img{
+	width: 60px;
+}*/
+.r2 {
+	padding-top: 20px;
+}
+.footmail {
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+a.footmaillink {
+	color: white!important;
+	text-decoration: underline!important;
+}
+a.footmaillink:hover {
+	color: black!important;
+	text-decoration: none!important;
+}
+.beta {
+	display: inline-block;
+	font-size: 10px;
+}
+a:focus, a:hover {
+    color: black;
+    text-decoration: underline;
+}
