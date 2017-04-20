@@ -175,7 +175,12 @@ i.fa.fa-check {
 .pi2 {
 	width: 150px;
 }
-
+/*social buttons*/
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
+img.soc:hover {
+	
+}
 /*footer social buttons*/
 footer {
 	background-color: #0a4f79;
