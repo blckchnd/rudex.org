@@ -1,4 +1,22 @@
 
+/*                        /  |
+ _____  ____    ______  $$/  _______
+/     \/    \  /      \ /  |/       \
+$$$$$$ $$$$  | $$$$$$  |$$ |$$$$$$$  |
+$$ | $$ | $$ | /    $$ |$$ |$$ |  $$ |
+$$ | $$ | $$ |/$$$$$$$ |$$ |$$ |  $$ |
+$$ | $$ | $$ |$$    $$ |$$ |$$ |  $$ |
+$$/  $$/  $$/  $$$$$$$/ $$/ $$/   $$/*/
+
+/*    ,...
+  .d' ""                 mm
+  dM`                    MM
+ mMMmm,pW"Wq.`7MMpMMMb.mmMMmm ,pP"Ybd
+  MM 6W'   `Wb MM    MM  MM   8I   `"
+  MM 8M     M8 MM    MM  MM   `YMMMa.
+  MM YA.   ,A9 MM    MM  MM   L.   I8
+.JMML.`Ybmd9'.JMML  JMML.`MbmoM9mmmP'*/
+
 @font-face {
     font-family: "CasperBold";   
     src: url("fonts/Casper_Bold.ttf") format("truetype");
@@ -24,6 +42,7 @@
     font-weight: normal;
 }
 
+/*navigation top*/
 .navbar-default {
     background-color: #247fab;
     border-color: #247fab;
@@ -38,34 +57,13 @@
  	 padding-left: 100px;
 
 }
-.priemsection {
-	background-color: #77c5ec;	
+.navbar .navbar-collapse {
+    text-align: center;
+    margin-right: 0px;
+    font-weight: 600;
 }
-.section-heading {
-	color: #0a4f79;
-}
-.priemint {
-	text-align: center;
-	padding-left: 120px;
-	color: #0a4f79;
-	font-weight: 600;
-	font-size: 15px;
-}
-.priemint .pimg1 {
-    margin-bottom: -20px;
-}
-.priemint div img {
-	width: 100%;
-}
-.partnmain {
-	text-align: center;
-}
-footer {
-	background-color: #0a4f79;
-}
-.svyaz {
-	color: white;
-}
+
+/*head and description*/
 .intro-header h1 {
 	text-shadow: 3px 3px #23415b;
 	margin-bottom: 30px;
@@ -74,11 +72,12 @@ footer {
 	text-shadow: 3px 3px #23415b;
 	font-size: 32px;
 }
-.navbar .navbar-collapse {
-    text-align: center;
-    margin-right: 0px;
-    font-weight: 600;
+.beta {
+	display: inline-block;
+	font-size: 10px;
 }
+
+/*green button*/
 .btnmain {
 	background-color: #75a33b;
 	color: white;
@@ -88,22 +87,79 @@ footer {
 	border: none;
 	box-shadow: 1px 1px #23415b;
 }
+
+/*advantages list*/
+.priemsection {
+	background-color: #77c5ec;	
+}
+.section-heading {
+	color: #0a4f79;
+}
+.spis {
+	margin-bottom: 40px;
+	height: 60px;
+	color: white;
+}
+.galka {
+	background-color: #275e91;
+	height: 60px;
+}
 i.fa.fa-check {
     color: white;
     font-size: 22px;
-    position: relative;
-    padding-right: 70px;
-    padding-left: 30px;
-    padding-top: 23px;
+    padding-top: 18px;
+    padding-left: 9px;
 }
-div.spis {
-	color: white;
+
+.triug {
+	width: 0;
+	height: 0;
+	border-top: 60px solid #275e91; 
+	border-right: 70px solid transparent;
+	background-color: #5f88ad;
 }
-div.spistext {
-	display: inline-block;
-	vertical-align: middle;
-	font-family: Russo;
+
+.triug2 {
+	width: 0;
+	height: 0;
+	border-top: 60px solid #5f88ad; 
+	border-right: 70px solid transparent;			
+}
+.spistext {
+	background-color: #5f88ad;
+	height: 60px;
+	display: block;
+	margin: auto;
+	padding-top: 10px;
+	font-size: 14px;
+}
+@media (min-width: 1200px) {
+.col-lg-6 {
+    width: 53%!important;
+}
+
+}
+/*interface advantages*/
+.priemint {
+	text-align: center;
+	padding-left: 120px;
+	color: #0a4f79;
+	font-weight: 600;
 	font-size: 15px;
+}
+.ptext1 {
+	clear: both;
+}
+.priemint .pimg1 {
+    margin-bottom: -20px;
+}
+.priemint div img {
+	width: 100%;
+}
+
+/*partners*/
+.partnmain {
+	text-align: center;
 }
 .partnmain {
  padding-bottom: 30px;
@@ -116,6 +172,15 @@ div.spistext {
 .pi2 {
 	width: 150px;
 }
+
+/*footer social buttons*/
+footer {
+	background-color: #0a4f79;
+}
+.svyaz {
+	color: white;
+}
+
 .footer1, .footer2 {
 	text-align: center;
 }
@@ -123,12 +188,6 @@ div.spistext {
 	width: 100px;
 	margin-right: 20px;
 }
-.footer1 img:hover, .footer2 img:hover{
- 	filter: greyscale(100%);
-}
-/*.svyazimg img{
-	width: 60px;
-}*/
 .r2 {
 	padding-top: 20px;
 }
@@ -145,11 +204,214 @@ a.footmaillink:hover {
 	color: black!important;
 	text-decoration: none!important;
 }
-.beta {
-	display: inline-block;
-	font-size: 10px;
-}
+
 a:focus, a:hover {
     color: black;
     text-decoration: underline;
+}
+
+/*                         __        __  __                                                          __
+                        /  |      /  |/  |                                                        /  |
+ _____  ____    ______  $$ |____  $$/ $$ |  ______         __     __  ______    ______    _______ $$/   ______   _______
+/     \/    \  /      \ $$      \ /  |$$ | /      \       /  \   /  |/      \  /      \  /       |/  | /      \ /       \
+$$$$$$ $$$$  |/$$$$$$  |$$$$$$$  |$$ |$$ |/$$$$$$  |      $$  \ /$$//$$$$$$  |/$$$$$$  |/$$$$$$$/ $$ |/$$$$$$  |$$$$$$$  |
+$$ | $$ | $$ |$$ |  $$ |$$ |  $$ |$$ |$$ |$$    $$ |       $$  /$$/ $$    $$ |$$ |  $$/ $$      \ $$ |$$ |  $$ |$$ |  $$ |
+$$ | $$ | $$ |$$ \__$$ |$$ |__$$ |$$ |$$ |$$$$$$$$/         $$ $$/  $$$$$$$$/ $$ |       $$$$$$  |$$ |$$ \__$$ |$$ |  $$ |
+$$ | $$ | $$ |$$    $$/ $$    $$/ $$ |$$ |$$       |         $$$/   $$       |$$ |      /     $$/ $$ |$$    $$/ $$ |  $$ |
+$$/  $$/  $$/  $$$$$$/  $$$$$$$/  $$/ $$/  $$$$$$$/           $/     $$$$$$$/ $$/       $$$$$$$/  $$/  $$$$$$/  $$/   $$/*/
+
+@media screen and (max-width: 50em) {
+body {
+	
+}
+.btnmain {
+ 	width: 100%;
+ 	font-size: 12px;
+}
+.intro-header p {
+	text-shadow: 2px 2px #23415b;
+	font-size: 18px;
+}
+
+.spis {
+	margin-bottom: 40px;
+	height: 40px;
+	color: white;
+}
+.galka {
+	background-color: #275e91;
+	height: 40px;
+}
+.col-xs-5 {
+    width: 100%!important;
+}
+.col-xs-1 {
+	width: 0!important;
+	visibility: hidden;
+}
+i.fa.fa-check {
+    color: white;
+    font-size: 22px;
+    padding-top: 0px;
+    padding-left: 0px;
+}
+
+.triug {
+	width: 0;
+	height: 0;
+	border-top: 40px solid #275e91; 
+	border-right: 50px solid transparent;
+	background-color: #5f88ad;
+}
+
+.triug2 {
+	width: 0;
+	height: 0;
+	border-top: 40px solid #5f88ad; 
+	border-right: 50px solid transparent;			
+}
+.spistext {
+	background-color: #5f88ad;
+	height: 40px;
+	display: block;
+	margin: auto;
+	font-size: 10px;
+}
+
+.priemint {
+	text-align: center;
+	padding-left: 0px;
+	color: #0a4f79;
+	font-weight: 600;
+	font-size: 15px;
+	width: 305px;
+}
+.priemint .pimg1 {
+    margin-bottom: 0px;
+}
+.priemint div img {
+	width: 50%;
+}
+
+.col-xs-2 {
+
+}
+.pimg1 {
+	width: 49%;
+	float: left;
+}
+.ptext1 {
+	width: 49%;
+	float: right;
+	margin-right: 50px;
+	margin-top: 10px;
+	clear: none;
+}
+.ptext1 div {
+	padding-bottom: 20px;
+}
+
+.pi1 {
+	padding-right: 0px;
+	padding-bottom: 20px;
+	width: 40%;
+	display: block;
+	margin: auto;
+}
+.pi2 {
+	width: 35%;
+	display: block;
+	margin: auto;
+}
+.footer1, .footer2 {
+	text-align: center;
+}
+.footer1 img, .footer2 img{
+	width: 80px;
+	margin-right: 0px;
+}
+.r2 {
+	padding-top: 20px;
+}
+}
+
+
+
+/*other*/
+@media (min-width: 992px) {
+	.spis {
+	margin-bottom: 40px;
+	height: 60px;
+	color: white;
+}
+.galka {
+	background-color: #275e91;
+	height: 60px;
+}
+i.fa.fa-check {
+    color: white;
+    font-size: 22px;
+    padding-top: 18px;
+    padding-left: 2px;
+}
+
+.triug {
+	width: 0;
+	height: 0;
+	border-top: 60px solid #275e91; 
+	border-right: 70px solid transparent;
+	background-color: #5f88ad;
+}
+
+.triug2 {
+	width: 0;
+	height: 0;
+	border-top: 60px solid #5f88ad; 
+	border-right: 70px solid transparent;			
+}
+.spistext {
+	background-color: #5f88ad;
+	height: 60px;
+	display: block;
+	margin: auto;
+	padding-top: 2px;
+	font-size: 12px;
+}
+
+}
+@media (min-width: 768px) {
+.priemint {
+	text-align: center;
+	padding-left: 20px;
+	color: #0a4f79;
+	font-weight: 600;
+	font-size: 12px;
+}
+.col-sm-3 {
+    width: 20%;
+}
+.pi1 {
+	padding-right: 15px;
+	padding-bottom: 20px;
+	width: 20%;
+	display: inline-block;
+	margin: auto;
+}
+.pi2 {
+	width: 15%;
+	display: inline-block;
+	margin: auto;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    padding-left: 0px;
+}
+}
+@media (min-width: 1200px) {
+.pi1 {
+	padding-right: 100px;
+}
+.navbar-default .navbar-nav>li>a {
+    padding-left: 100px;
+}
 }
