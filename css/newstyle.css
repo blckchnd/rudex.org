@@ -130,12 +130,15 @@ i.fa.fa-check {
 	height: 60px;
 	display: block;
 	margin: auto;
-	padding-top: 10px;
+	padding-top: 30px;
 	font-size: 14px;
 }
 @media (min-width: 1200px) {
 .col-lg-6 {
     width: 53%!important;
+}
+.spistext {
+	padding-top: 16px!important;
 }
 
 }
