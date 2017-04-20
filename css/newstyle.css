@@ -130,16 +130,13 @@ i.fa.fa-check {
 	height: 60px;
 	display: block;
 	margin: auto;
-	padding-top: 30px;
 	font-size: 14px;
 }
 @media (min-width: 1200px) {
 .col-lg-6 {
     width: 53%!important;
 }
-.spistext {
-	padding-top: 16px!important;
-}
+
 
 }
 /*interface advantages*/
@@ -178,9 +175,6 @@ i.fa.fa-check {
 /*social buttons*/
 .grow { transition: all .2s ease-in-out; }
 .grow:hover { transform: scale(1.1); }
-img.soc:hover {
-	
-}
 /*footer social buttons*/
 footer {
 	background-color: #0a4f79;
@@ -415,6 +409,7 @@ i.fa.fa-check {
     color: #fff;
     padding-left: 0px;
 }
+
 }
 @media (min-width: 1200px) {
 .pi1 {
@@ -422,5 +417,23 @@ i.fa.fa-check {
 }
 .navbar-default .navbar-nav>li>a {
     padding-left: 100px;
+}
+.spistext {
+	background-color: #5f88ad;
+	height: 60px;
+	display: block;
+	margin: auto;
+	padding-top: 2px;
+	font-size: 14px!important;
+}
+}
+@media (min-width: 992px) {
+.spistext {
+	background-color: #5f88ad;
+	height: 60px;
+	display: block;
+	margin: auto;
+	padding-top: 2px;
+	font-size: 10px;
 }
 }
