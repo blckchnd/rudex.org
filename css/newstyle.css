@@ -170,10 +170,7 @@ i.fa.fa-check {
 
 .pi1 {
 	padding-right: 100px;
-		width: 200px;
-}
-.pi2 {
-	width: 150px;
+	width: 200px;
 }
 /*social buttons*/
 .grow { transition: all .2s ease-in-out; }
@@ -399,7 +396,7 @@ i.fa.fa-check {
 .pi1 {
 	padding-right: 15px;
 	padding-bottom: 20px;
-	width: 20%;
+	width: 30%;
 	display: inline-block;
 	margin: auto;
 }
@@ -416,7 +413,8 @@ i.fa.fa-check {
 }
 @media (min-width: 1200px) {
 .pi1 {
-	padding-right: 100px;
+	padding-right: 50px;
+	padding-left: 50px;
 }
 .navbar-default .navbar-nav>li>a {
     padding-left: 100px;
